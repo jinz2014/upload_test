@@ -16,5 +16,7 @@ testAssert(
     console.log(s2.indexOf('s')
       ));
 console.log(s2.lastIndexOf('s'));
+
+// return -1 when not found
 assert.equal(-1, s2.indexOf('V'));
 
